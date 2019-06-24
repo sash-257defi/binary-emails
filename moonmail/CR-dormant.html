@@ -674,23 +674,25 @@ a[x-apple-data-detectors] {
                 </tr>
                 <tr>
                     <td class="one-column">
-                        <tr>
-                            <td class="centered">
-                                <p class="font-s centered"><a href="https://www.binary.com/en/terms-and-conditions.html?#legal" target="_blank">Terms and Conditions</a>  &nbsp;|&nbsp; <a href="https://www.binary.com/en/terms-and-conditions.html?#risk" target="_blank">Risk Disclaimer</a> &nbsp;|&nbsp; <a href="https://www.binary.com/en/terms-and-conditions.html?section=conflicts-policy#conflicts-policy" target="_blank">Conflicts Policy</a> &nbsp;|&nbsp; <a href="https://www.binary.com/en/terms-and-conditions.html?#order-execution" target="_blank">Order Execution</a></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="centered fill-bg-color unsubscribe">
-                                <span class="font-s"><a href="{{unsubscribe_url}}">Unsubscribe</a> {{recipient_email}} from this list.</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="centered font-s data-section">
-                                <p class="font-s">{{list_description}}</p>
-                                <p class="font-s">{{list_address}}</p>
-                                <p class="font-s">Copyright (C) {{ 'now' | date: "%Y" }} <a href="{{list_url}}">{{list_company}}</a>. All rights reserved.</p>
-                            </td>
-                        </tr>
+                        <table width="100%">
+                            <tr>
+                                <td class="centered">
+                                    <p class="font-s centered"><a href="https://www.binary.com/en/terms-and-conditions.html?#legal" target="_blank">Terms and Conditions</a>  &nbsp;|&nbsp; <a href="https://www.binary.com/en/terms-and-conditions.html?#risk" target="_blank">Risk Disclaimer</a> &nbsp;|&nbsp; <a href="https://www.binary.com/en/terms-and-conditions.html?section=conflicts-policy#conflicts-policy" target="_blank">Conflicts Policy</a> &nbsp;|&nbsp; <a href="https://www.binary.com/en/terms-and-conditions.html?#order-execution" target="_blank">Order Execution</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="centered fill-bg-color unsubscribe">
+                                    <span class="font-s"><a href="{{unsubscribe_url}}">Unsubscribe</a> {{recipient_email}} from this list.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="centered font-s data-section">
+                                    <p class="font-s">{{list_description}}</p>
+                                    <p class="font-s">{{list_address}}</p>
+                                    <p class="font-s">Copyright (C) {{ 'now' | date: "%Y" }} <a href="{{list_url}}">{{list_company}}</a>. All rights reserved.</p>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table><!--[if mso></td></tr></table><![endif]-->                 
